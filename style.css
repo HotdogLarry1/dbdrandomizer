@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Trebuchet MS";
+}
+
+body {
+  position: relative;
+}
+
+.input {
+  position: relative;
+  width: fit-content;
+}
+
+.title-banner {
+  display: inline-block;
+  margin-left:25px;
+  margin-right:15px;
+}
+
+.survivor {
+  display: inline-block;
+}
+
+.input-character {
+  width: 150px;
+  /* position: relative; */
+  left: 30px;
+  background-color: #333;
+  opacity: 0.7;
+  margin: 5px 10px;
+}
+
+.input-perk {
+  position: absolute;
+  width: 40px;
+  background-color: #333;
+  opacity: 0.7;
+  margin: 2px;
+  margin-bottom: 5px;
+}
+
+.perks {
+  width: fit-content;
+  position: relative;
+  /* left: 25px; */
+  margin-bottom: 50px;
+}
+
+.input-perk1 {
+  left: 8px;
+}
+
+.input-perk2 {
+  left: 62px;
+}
+
+.input-perk3 {
+  left: 116px;
+}
+
+.output {
+  /* display: inline-block; */
+  position: relative;
+}
+
+.output-character {
+  position: absolute;
+  left: 400px;
+  /* top: 600px; */
+}
+
+.selected-character {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-color: rgb(168, 0, 184);
+  margin: 5px 10px;
+}
+
+.characters-available {
+  font-size: 22px;
+
+  position: absolute;
+  /* left: 420px; */
+  top: 7px;
+  width: 275px;
+}
+
+.output-perks {
+  position: relative;
+  left: 725px;
+  top: 40px;
+  /* top: 603px; */
+}
+
+.selected-perk {
+  position: relative;
+  width: 180px;
+  height: 170px;
+  background-color: rgb(168, 0, 184);
+  margin: 2px;
+}
+
+.perks-available {
+  display: inline-block;
+  font-size: 14px;
+  position: relative;
+  width: 175px;
+  left: 5px;
+}
+
+.perks-available-01 {
+  position: relative;
+}
+.perks-available-02 {
+  position: relative;
+  left: 13px;
+}
+.perks-available-03 {
+  position: relative;
+  left: 23px;
+}
+
+.perks-available-04 {
+  position: relative;
+  left: 32px;
+}
+
+.highlight {
+  /* border-radius: 50%; */
+  /* border: #ff0000 solid; */
+  opacity: 1;
+  background-color: #009900;
+}
+
+.button {
+  /* position: absolute; */
+  display: inline-block
+  width: 120px;
+  height: 25px;
+}
+
+.random-all {
+  font-size: 20px;
+  font-weight: bold;
+  width: 130px;
+  height: 30px;
+  position: absolute;
+  left: 15px;
+}
+
+.random-character {
+  position: absolute;
+  left: 150px;
+  bottom: -27px;
+}
+
+.random-perk1 {
+  position: relative;
+  Left: 10px;
+  top: 5px;
+}
+.random-perk2 {
+  position: relative;
+  Left: 112px;
+  top: 5px;
+}
+.random-perk3 {
+  position: relative;
+  Left: 217px;
+  top: 5px;
+}
+.random-perk4 {
+  position: relative;
+  Left: 317px;
+  top: 5px;
+}
+
+.selection-button {
+  font-size: 18px;
+  width: 175px;
+  position: relative;
+  margin-right: 25px;
+  background-color: #ff0000;
+}
+
+.toggled-on {
+  background-color: #00ff00; 
+  
+}

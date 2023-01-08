@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Dead by Daylight Build Randomizer</title>
+  </head>
+  <body>
+    <h1 class="title-banner">Dead by Daylight Randomizer</h1>
+    <button class="button selection-button select-all-button">
+      TOGGLE ALL ON
+    </button>
+    <button class="button selection-button select-char-button">
+      TOGGLE CHAR ON
+    </button>
+    <button class="button selection-button select-perks-button">
+      TOGGLE PERKS ON
+    </button>
+    <div class="banner-input-spacer"></div>
+    <div class="input">
+      <div class="characters">
+        <div class="survivor ace">
+          <img
+            src="/char-img/char_acevisconti.png"
+            alt="Character: Ace Visconti"
+            class="input-character acevisconti"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_aceInTheHole.png"
+              alt="Perk: Ace in the Hole"
+              class="input-perk input-perk1 aceinthehole"
+            />
+            <img
+              src="/perks/iconPerks_openHanded.png"
+              alt="Perk: Open Handed"
+              class="input-perk input-perk2 openhanded"
+            />
+            <img
+              src="/perks/iconPerks_upTheAnte.png"
+              alt="Perk: Up the Ante"
+              class="input-perk input-perk3 uptheante"
+            />
+          </div>
+        </div>
+
+        <div class="survivor adam">
+          <img
+            src="/char-img/char_adamfrancis.png"
+            alt="Character: Adam Francis"
+            class="input-character adamfrancis"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_diversion.png"
+              alt="Perk: Diversion"
+              class="input-perk input-perk1 diversion"
+            />
+            <img
+              src="/perks/iconPerks_deliverance.png"
+              alt="Perk: Deliverance"
+              class="input-perk input-perk2 deliverance"
+            />
+            <img
+              src="/perks/iconPerks_autodidact.png"
+              alt="Perk: Autodidact"
+              class="input-perk input-perk3 autodidact"
+            />
+          </div>
+        </div>
+
+        <div class="survivor ada">
+          <img
+            src="/char-img/char_adawong.png"
+            alt="Character: Ada Wong"
+            class="input-character adawong"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_LowProfile.png"
+              alt="Perk: Low Profile"
+              class="input-perk input-perk1 lowprofile"
+            />
+            <img
+              src="/perks/iconPerks_ReactiveHealing.png"
+              alt="Perk: Reactive Healing"
+              class="input-perk input-perk2 reactivehealing"
+            />
+            <img
+              src="/perks/iconPerks_Wiretap.png"
+              alt="Perk: Wiretap"
+              class="input-perk input-perk3 wiretap"
+            />
+          </div>
+        </div>
+
+        <div class="survivor ash">
+          <img
+            src="/char-img/char_ashwilliams.png"
+            alt="Character: Ash Williams"
+            class="input-character ashwilliams"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_buckleUp.png"
+              alt="Perk: Buckle Up"
+              class="input-perk input-perk1 buckleup"
+            />
+            <img
+              src="/perks/iconPerks_flipFlop.png"
+              alt="Perk: Flip-Flop"
+              class="input-perk input-perk2 flipflop"
+            />
+            <img
+              src="/perks/iconPerks_mettleOfMan.png"
+              alt="Perk: Mettle of Man"
+              class="input-perk input-perk3 mettleofman"
+            />
+          </div>
+        </div>
+
+        <div class="survivor bill">
+          <img
+            src="/char-img/char_billoverbeck.png"
+            alt="Character: William Bill Overbeck"
+            class="input-character billoverbeck"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_borrowedTime.png"
+              alt="Perk: Borrowed Time"
+              class="input-perk input-perk1 borrowedtime"
+            />
+            <img
+              src="/perks/iconPerks_leftBehind.png"
+              alt="Perk: Left Behind"
+              class="input-perk input-perk2 leftbehind"
+            />
+            <img
+              src="/perks/iconPerks_unbreakable.png"
+              alt="Perk: Unbreakable"
+              class="input-perk input-perk3 unbreakable"
+            />
+          </div>
+        </div>
+
+        <div class="survivor cheryl">
+          <img
+            src="/char-img/char_cherylmason.png"
+            alt="Character: Cheryl Mason"
+            class="input-character cherylmason"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_bloodPact.png"
+              alt="Perk: Blood Pact"
+              class="input-perk input-perk1 bloodpact"
+            />
+            <img
+              src="/perks/iconPerks_repressedAlliance.png"
+              alt="Perk: Repressed Alliance"
+              class="input-perk input-perk2 repressedalliance"
+            />
+            <img
+              src="/perks/iconPerks_soulGuard.png"
+              alt="Perk: Soul Gard"
+              class="input-perk input-perk3 soulguard"
+            />
+          </div>
+        </div>
+
+        <div class="survivor claudette">
+          <img
+            src="/char-img/char_claudettemorel.png"
+            alt="Character: Claudette Morel"
+            class="input-character claudettemorel"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_botanyKnowledge.png"
+              alt="Perk: Botany Knowledge"
+              class="input-perk input-perk1 botanyknowledge"
+            />
+            <img
+              src="/perks/iconPerks_empathy.png"
+              alt="Perk: Empathy"
+              class="input-perk input-perk2 empathy"
+            />
+            <img
+              src="/perks/iconPerks_selfCare.png"
+              alt="Perk: Self-Care"
+              class="input-perk input-perk3 selfcare"
+            />
+          </div>
+        </div>
+
+        <div class="survivor david">
+          <img
+            src="/char-img/char_davidking.png"
+            alt="Character: David King"
+            class="input-character davidking"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_DeadHard.png"
+              alt="Perk: Dead Hard"
+              class="input-perk input-perk1 deadhard"
+            />
+            <img
+              src="/perks/iconPerks_NoMither.png"
+              alt="Perk: No Mither"
+              class="input-perk input-perk2 nomither"
+            />
+            <img
+              src="/perks/iconPerks_WereGonnaLiveForever.png"
+              alt="Perk: We're Gonna Live Forever"
+              class="input-perk input-perk3 weregonnaliveforever"
+            />
+          </div>
+        </div>
+
+        <div class="survivor tapp">
+          <img
+            src="/char-img/char_davidtapp.png"
+            alt="Character: David Tapp"
+            class="input-character davidtapp"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_detectivesHunch.png"
+              alt="Perk: Detective's Hunch"
+              class="input-perk input-perk1 detectiveshunch"
+            />
+            <img
+              src="/perks/iconPerks_stakeOut.png"
+              alt="Perk: Stake Out"
+              class="input-perk input-perk2 stakeout"
+            />
+            <img
+              src="/perks/iconPerks_tenacity.png"
+              alt="Perk: Tenacity"
+              class="input-perk input-perk3 tenacity"
+            />
+          </div>
+        </div>
+
+        <div class="survivor dwight">
+          <img
+            src="/char-img/char_dwightfairfield.png"
+            alt="Character: Dwight Fairfield"
+            class="input-character dwightfairfield"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_bond.png"
+              alt="Perk: Bond"
+              class="input-perk input-perk1 bond"
+            />
+            <img
+              src="/perks/iconPerks_proveThyself.png"
+              alt="Perk: Prove Thyself"
+              class="input-perk input-perk2 provethyself"
+            />
+            <img
+              src="/perks/iconPerks_leader.png"
+              alt="Perk: Leader"
+              class="input-perk input-perk3 leader"
+            />
+          </div>
+        </div>
+
+        <div class="survivor elodie">
+          <img
+            src="/char-img/char_elodierakoto.png"
+            alt="Character: Élodie Rakoto"
+            class="input-character elodierakoto"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_appraisal.png"
+              alt="Perk: Appraisal"
+              class="input-perk input-perk1 appraisal"
+            />
+            <img
+              src="/perks/iconPerks_deception.png"
+              alt="Perk: Deception"
+              class="input-perk input-perk2 deception"
+            />
+            <img
+              src="/perks/iconPerks_powerStruggle.png"
+              alt="Perk: Power Struggle"
+              class="input-perk input-perk3 powerstruggle"
+            />
+          </div>
+        </div>
+
+        <div class="survivor felix">
+          <img
+            src="/char-img/char_felixrichter.png"
+            alt="Character: Felix Richter"
+            class="input-character felixrichter"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_builtToLast.png"
+              alt="Perk: Built to Last"
+              class="input-perk input-perk1 builttolast"
+            />
+            <img
+              src="/perks/iconPerks_desperateMeasures.png"
+              alt="Perk: Desparate Measures"
+              class="input-perk input-perk2 desperatemeasures"
+            />
+            <img
+              src="/perks/iconPerks_visionary.png"
+              alt="Perk: Visionary"
+              class="input-perk input-perk3 visionary"
+            />
+          </div>
+        </div>
+
+        <div class="survivor feng">
+          <img
+            src="/char-img/char_fengmin.png"
+            alt="Character: Feng Min"
+            class="input-character fengmin"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_alert.png"
+              alt="Perk: Alert"
+              class="input-perk input-perk1 alert"
+            />
+            <img
+              src="/perks/iconPerks_lithe.png"
+              alt="Perk: Lithe"
+              class="input-perk input-perk2 lithe"
+            />
+            <img
+              src="/perks/iconPerks_technician.png"
+              alt="Perk: Technician"
+              class="input-perk input-perk3 technician"
+            />
+          </div>
+        </div>
+
+        <div class="survivor haddie">
+          <img
+            src="/char-img/char_haddiekaur.png"
+            alt="Character: Haddie Kaur"
+            class="input-character haddiekaur"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_InnerFocus.png"
+              alt="Perk: Inner Focus"
+              class="input-perk input-perk1 innerfocus"
+            />
+            <img
+              src="/perks/iconPerks_Overzealous.png"
+              alt="Perk: Overzealous"
+              class="input-perk input-perk2 overzealous"
+            />
+            <img
+              src="/perks/iconPerks_ResidualManifest.png"
+              alt="Perk: Residual Manifest"
+              class="input-perk input-perk3 residualmanifest"
+            />
+          </div>
+        </div>
+
+        <div class="survivor jake">
+          <img
+            src="/char-img/char_jakepark.png"
+            alt="Character: Jake Park"
+            class="input-character jakepark"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_calmSpirit.png"
+              alt="Perk: Calm Spirit"
+              class="input-perk input-perk1 calmspirit"
+            />
+            <img
+              src="/perks/iconPerks_ironWill.png"
+              alt="Perk: Iron Will"
+              class="input-perk input-perk2 ironwill"
+            />
+            <img
+              src="/perks/iconPerks_saboteur.png"
+              alt="Perk: Saboteur"
+              class="input-perk input-perk3 saboteur"
+            />
+          </div>
+        </div>
+
+        <div class="survivor jane">
+          <img
+            src="/char-img/char_janeromero.png"
+            alt="Character: Jane Romero"
+            class="input-character janeromero"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_headOn.png"
+              alt="Perk: Head On"
+              class="input-perk input-perk1 headon"
+            />
+            <img
+              src="/perks/iconPerks_poised.png"
+              alt="Perk: Poised"
+              class="input-perk input-perk2 poised"
+            />
+            <img
+              src="/perks/iconPerks_solidarity.png"
+              alt="Perk: Solidarity"
+              class="input-perk input-perk3 solidarity"
+            />
+          </div>
+        </div>
+
+        <div class="survivor jeff">
+          <img
+            src="/char-img/char_jeffjohansen.png"
+            alt="Character: Jeff Johansen"
+            class="input-character jeffjohansen"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_aftercare.png"
+              alt="Perk: Aftercare"
+              class="input-perk input-perk1 aftercare"
+            />
+            <img
+              src="/perks/iconPerks_breakdown.png"
+              alt="Perk: Breakdown"
+              class="input-perk input-perk2 breakdown"
+            />
+            <img
+              src="/perks/iconPerks_distortion.png"
+              alt="Perk: Distortion"
+              class="input-perk input-perk3 distortion"
+            />
+          </div>
+        </div>
+
+        <div class="survivor jill">
+          <img
+            src="/char-img/char_jillvalentine.png"
+            alt="Character: Jill Valentine"
+            class="input-character jillvalentine"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_blastMine.png"
+              alt="Perk: Blast Mine"
+              class="input-perk input-perk1 blastmine"
+            />
+            <img
+              src="/perks/iconPerks_Counterforce.png"
+              alt="Perk: Counterforce"
+              class="input-perk input-perk2 counterforce"
+            />
+            <img
+              src="/perks/iconPerks_Resurgence.png"
+              alt="Perk: Resurgence"
+              class="input-perk input-perk3 resurgence"
+            />
+          </div>
+        </div>
+
+        <div class="survivor jonah">
+          <img
+            src="/char-img/char_jonahvasquez.png"
+            alt="Character: Jonah Vasquez"
+            class="input-character jonahvasquez"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_BoonExponential.png"
+              alt="Perk: Boon: Exponential"
+              class="input-perk input-perk1 boonexponential"
+            />
+            <img
+              src="/perks/iconPerks_CorrectiveAction.png"
+              alt="Perk: Corrective Action"
+              class="input-perk input-perk2 correctiveaction"
+            />
+            <img
+              src="/perks/iconPerks_Overcome.png"
+              alt="Perk: Overcome"
+              class="input-perk input-perk3 overcome"
+            />
+          </div>
+        </div>
+
+        <div class="survivor kate">
+          <img
+            src="/char-img/char_katedenson.png"
+            alt="Character: Kate Denson"
+            class="input-character katedenson"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_boilOver.png"
+              alt="Perk: Boil Over"
+              class="input-perk input-perk1 boilover"
+            />
+            <img
+              src="/perks/iconPerks_danceWithMe.png"
+              alt="Perk: Dance With Me"
+              class="input-perk input-perk2 dancewithme"
+            />
+            <img
+              src="/perks/iconPerks_windowsOfOpportunity.png"
+              alt="Perk: Windows of Opportunity"
+              class="input-perk input-perk3 windowsofopportunity"
+            />
+          </div>
+        </div>
+
+        <div class="survivor laurie">
+          <img
+            src="/char-img/char_lauriestrode.png"
+            alt="Character: Laurie Strode"
+            class="input-character lauriestrode"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_decisiveStrike.png"
+              alt="Perk: Decisive Strike"
+              class="input-perk input-perk1 decisivestrike"
+            />
+            <img
+              src="/perks/iconPerks_objectOfObsession.png"
+              alt="Perk: Object of Obsession"
+              class="input-perk input-perk2 objectofobsession"
+            />
+            <img
+              src="/perks/iconPerks_soleSurvivor.png"
+              alt="Perk: Sole Survivor"
+              class="input-perk input-perk3 solesurvivor"
+            />
+          </div>
+        </div>
+
+        <div class="survivor leon">
+          <img
+            src="/char-img/char_leonkennedy.png"
+            alt="Character: Leon S. Kennedy"
+            class="input-character leonkennedy"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_BiteTheBullet.png"
+              alt="Perk: Bite the Bullet"
+              class="input-perk input-perk1 bitethebullet"
+            />
+            <img
+              src="/perks/iconPerks_Flashbang.png"
+              alt="Perk: Flashbang"
+              class="input-perk input-perk2 flashbang"
+            />
+            <img
+              src="/perks/iconPerks_RookieSpirit.png"
+              alt="Perk: Rookie Spirit"
+              class="input-perk input-perk3 rookiespirit"
+            />
+          </div>
+        </div>
+
+        <div class="survivor meg">
+          <img
+            src="/char-img/char_megthomas.png"
+            alt="Character: Meg Thomas"
+            class="input-character megthomas"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_adrenaline.png"
+              alt="Perk: Adrenaline"
+              class="input-perk input-perk1 adrenaline"
+            />
+            <img
+              src="/perks/iconPerks_quickAndQuiet.png"
+              alt="Perk: Quick & Quiet"
+              class="input-perk input-perk2 quickandquiet"
+            />
+            <img
+              src="/perks/iconPerks_sprintBurst.png"
+              alt="Perk: Sprint Burst"
+              class="input-perk input-perk3 sprintburst"
+            />
+          </div>
+        </div>
+
+        <div class="survivor mikaela">
+          <img
+            src="/char-img/char_mikaelareid.png"
+            alt="Character: Mikaela Reid"
+            class="input-character mikaelareid"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_BoonCircleOfHealing.png"
+              alt="Perk: Boon: Circle of Healing"
+              class="input-perk input-perk1 booncircleofhealing"
+            />
+            <img
+              src="/perks/iconPerks_BoonShadowStep.png"
+              alt="Perk: Boon: Shadow Step"
+              class="input-perk input-perk2 boonshadowstep"
+            />
+            <img
+              src="/perks/iconPerks_Clairvoyance.png"
+              alt="Perk: Clairvoyance"
+              class="input-perk input-perk3 clairvoyance"
+            />
+          </div>
+        </div>
+
+        <div class="survivor nancy">
+          <img
+            src="/char-img/char_nancywheeler.png"
+            alt="Character: Nancy Wheeler"
+            class="input-character nancywheeler"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_betterTogether.png"
+              alt="Perk: Better Together"
+              class="input-perk input-perk1 bettertogether"
+            />
+            <img
+              src="/perks/iconPerks_fixated.png"
+              alt="Perk: Fixated"
+              class="input-perk input-perk2 fixated"
+            />
+            <img
+              src="/perks/iconPerks_innerStrength.png"
+              alt="Perk: Inner Strength"
+              class="input-perk input-perk3 innerstrength"
+            />
+          </div>
+        </div>
+
+        <div class="survivor nea">
+          <img
+            src="/char-img/char_neakarlsson.png"
+            alt="Character: Nea Karlsson"
+            class="input-character neakarlsson"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_balancedLanding.png"
+              alt="Perk: Balanced Living"
+              class="input-perk input-perk1 balancedlanding"
+            />
+            <img
+              src="/perks/iconPerks_streetwise.png"
+              alt="Perk: Streetwise"
+              class="input-perk input-perk2 streetwise"
+            />
+            <img
+              src="/perks/iconPerks_urbanEvasion.png"
+              alt="Perk: Urban Evasion"
+              class="input-perk input-perk3 urbanevasion"
+            />
+          </div>
+        </div>
+
+        <div class="survivor quentin">
+          <img
+            src="/char-img/char_quentinsmith.png"
+            alt="Character: Quentin Smith"
+            class="input-character haddiekaur"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_pharmacy.png"
+              alt="Perk: Pharmacy"
+              class="input-perk input-perk1 pharmacy"
+            />
+            <img
+              src="/perks/iconPerks_vigil.png"
+              alt="Perk: Vigil"
+              class="input-perk input-perk2 vigil"
+            />
+            <img
+              src="/perks/iconPerks_wakeUp.png"
+              alt="Perk: Wake Up!"
+              class="input-perk input-perk3 wakeup"
+            />
+          </div>
+        </div>
+
+        <div class="survivor rebecca">
+          <img
+            src="/char-img/char_rebeccachambers.png"
+            alt="Character: Rebecca Chambers"
+            class="input-character rebeccachambers"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_BetterThanNew.png"
+              alt="Perk: Better than New"
+              class="input-perk input-perk1 betterthannew"
+            />
+            <img
+              src="/perks/iconPerks_Hyperfocus.png"
+              alt="Perk: Hyperfocus"
+              class="input-perk input-perk2 hyperfocus"
+            />
+            <img
+              src="/perks/iconPerks_Reassurance.png"
+              alt="Perk: Reassurance"
+              class="input-perk input-perk3 reassurance"
+            />
+          </div>
+        </div>
+
+        <div class="survivor steve">
+          <img
+            src="/char-img/char_steveharrington.png"
+            alt="Character: Steve Harrington"
+            class="input-character steveharrington"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_Babysitter.png"
+              alt="Perk: Babysitter"
+              class="input-perk input-perk1 babysitter"
+            />
+            <img
+              src="/perks/iconPerks_Camaraderie.png"
+              alt="Perk: Camaraderie"
+              class="input-perk input-perk2 camaraderie"
+            />
+            <img
+              src="/perks/iconPerks_secondWind.png"
+              alt="Perk: Second Wind"
+              class="input-perk input-perk3 secondwind"
+            />
+          </div>
+        </div>
+
+        <div class="survivor vittorio">
+          <img
+            src="/char-img/char_vittoriotoscano.png"
+            alt="Character: Vittorio Toscano"
+            class="input-character vittoriotoscano"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_Fogwise.png"
+              alt="Perk: Fogwise"
+              class="input-perk input-perk1 fogwise"
+            />
+            <img
+              src="/perks/iconPerks_PotentialEnergy.png"
+              alt="Perk: Potential Energy"
+              class="input-perk input-perk2 potentialenergy"
+            />
+            <img
+              src="/perks/iconPerks_QuickGambit.png"
+              alt="Perk: Quick Gambit"
+              class="input-perk input-perk3 quickgambit"
+            />
+          </div>
+        </div>
+
+        <div class="survivor yoichi">
+          <img
+            src="/char-img/char_yoichiasakawa.png"
+            alt="Character: Yoichi Asakawa"
+            class="input-character yoichiasakawa"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_BoonDarkTheory.png"
+              alt="Perk: Boon: Dark Theory"
+              class="input-perk input-perk1 boondarktheory"
+            />
+            <img
+              src="/perks/iconPerks_empathicConnection.png"
+              alt="Perk: Empathic Connection"
+              class="input-perk input-perk2 empathicconnection"
+            />
+            <img
+              src="/perks/iconPerks_parentalGuidance.png"
+              alt="Perk: Parental Guidance"
+              class="input-perk input-perk3 parentalguidance"
+            />
+          </div>
+        </div>
+
+        <div class="survivor yui">
+          <img
+            src="/char-img/char_yuikimura.png"
+            alt="Character: Yui Kimura"
+            class="input-character yuikimura"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_anyMeansNecessary.png"
+              alt="Perk: Any Means Necessary"
+              class="input-perk input-perk1 anymeansnecessary"
+            />
+            <img
+              src="/perks/iconPerks_breakout.png"
+              alt="Perk: Breakout"
+              class="input-perk input-perk2 breakout"
+            />
+            <img
+              src="/perks/iconPerks_luckyBreak.png"
+              alt="Perk: Lucky Break"
+              class="input-perk input-perk3 luckybreak"
+            />
+          </div>
+        </div>
+
+        <div class="survivor yun-jin">
+          <img
+            src="/char-img/char_yunjinlee.png"
+            alt="Character: Yun-Jin Lee"
+            class="input-character yunjinlee"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_FastTrack.png"
+              alt="Perk: Fast Track"
+              class="input-perk input-perk1 fasttrack"
+            />
+            <img
+              src="/perks/iconPerks_Self-Preservation.png"
+              alt="Perk: Self-Preservation"
+              class="input-perk input-perk2 self-preservation"
+            />
+            <img
+              src="/perks/iconPerks_SmashHit.png"
+              alt="Perk: Smash Hit"
+              class="input-perk input-perk3 smashhit"
+            />
+          </div>
+        </div>
+
+        <div class="survivor zarina">
+          <img
+            src="/char-img/char_zarinakassir.png"
+            alt="Character: zarina"
+            class="input-character zarinakassir"
+          />
+          <div class="perks">
+            <img
+              src="/perks/iconPerks_forThePeople.png"
+              alt="Perk: For the People"
+              class="input-perk input-perk1 forthepeople"
+            />
+            <img
+              src="/perks/iconPerks_offTheRecord.png"
+              alt="Perk: Off the Record"
+              class="input-perk input-perk2 offtherecord"
+            />
+            <img
+              src="/perks/iconPerks_redHerring.png"
+              alt="Perk: Red Herring"
+              class="input-perk input-perk3 redherring"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="input-output-spacer"></div>
+    <div class="output">
+      <div class="output-character">
+        <img
+          src="/char-img/question-mark.png"
+          alt="Selected Character"
+          class="selected-character"
+        />
+
+        <select class="characters-available">
+          <option value="SelectCharacter" rel="/char-img/question-mark.png">
+            Select Character
+          </option>
+        </select>
+        <div></div>
+        <button class="button random-all">Random All</button>
+        <button class="button random-character">Random Character</button>
+      </div>
+      <div class="output-perks">
+        <img
+          src="/char-img/question-mark.png"
+          alt="Selected Perk 01"
+          class="selected-perk selected-perk-01"
+        />
+        <img
+          src="/char-img/question-mark.png"
+          alt="Selected Perk 02"
+          class="selected-perk selected-perk-02"
+        />
+        <img
+          src="/char-img/question-mark.png"
+          alt="Selected Perk 03"
+          class="selected-perk selected-perk-03"
+        />
+        <img
+          src="/char-img/question-mark.png"
+          alt="Selected Perk 04"
+          class="selected-perk selected-perk-04"
+        />
+        <div></div>
+        <select class="perks-available perks-available-01">
+          <option value="SelectCharacter" rel="/char-img/question-mark.png">
+            Select Perk
+          </option>
+        </select>
+        <select class="perks-available perks-available-02">
+          <option value="SelectCharacter" rel="/char-img/question-mark.png">
+            Select Perk
+          </option>
+        </select>
+        <select class="perks-available perks-available-03">
+          <option value="SelectCharacter" rel="/char-img/question-mark.png">
+            Select Perk
+          </option>
+        </select>
+        <select class="perks-available perks-available-04">
+          <option value="SelectCharacter" rel="/char-img/question-mark.png">
+            Select Perk
+          </option>
+        </select>
+        <div></div>
+        <button class="button random-perk1">Random Perk</button>
+        <button class="button random-perk2">Random Perk</button>
+        <button class="button random-perk3">Random Perk</button>
+        <button class="button random-perk4">Random Perk</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
